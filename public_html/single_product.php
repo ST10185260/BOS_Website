@@ -136,13 +136,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <div class="row mx-auto container-fluid">
         <div class="product text-center col-lg-3 col-md-4 col-sm-6">
             <img class="img-fluid mb-3" src="IMG_F1.jpg"/>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
             <h5 class="p-name">Dress</h5>
             <h4 class="p-price">R4500</h4>
             <button class="buy-btn">Buy Now</button>
@@ -151,13 +144,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <!-- Feature 2 -->
         <div class="product text-center col-lg-3 col-md-4 col-sm-6">
             <img class="img-fluid mb-3" src="IMG_F2.jpg"/>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
             <h5 class="p-name">Certified Tracksuit</h5>
             <h4 class="p-price">R5200</h4>
             <button class="buy-btn">Buy Now</button>
@@ -166,13 +152,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <!-- Feature 3 -->
         <div class="product text-center col-lg-3 col-md-4 col-sm-6">
             <img class="img-fluid mb-3" src="IMG_F3.jpg"/>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
             <h5 class="p-name">Leather Shorts</h5>
             <h4 class="p-price">R3500</h4>
             <button class="buy-btn">Buy Now</button>
@@ -181,13 +160,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <!-- Feature 4 -->
         <div class="product text-center col-lg-3 col-md-4 col-sm-6">
             <img class="img-fluid mb-3" src="IMG_F4.jpg"/>
-            <div class="star">
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-                <i class="fas fa-star"></i>
-            </div>
             <h5 class="p-name">Shawl</h5>
             <h4 class="p-price">R2200</h4>
             <button class="buy-btn">Buy Now</button>
@@ -206,12 +178,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                    <div class="footer onecol-lg-3 col-md-6 col-sm-12">                      
                        <h5 class="pb-2">Featured</h5>
                        <ul class="text-uppercase">
-                           <li><a href="#">Men</a></li>
-                           <li><a href="#">Women</a></li>
-                           <li><a href="#">Men</a></li>
-                           <li><a href="#">Boys</a></li>
-                           <li><a href="#">Girls</a></li>
-                           <li><a href="#">New Arrival</a></li>
+                           <li><a href="shop.php">Men</a></li>
+                           <li><a href="shop.php">Women</a></li>
+                           <li><a href="shop.php">Men</a></li>
+                           <li><a href="shop.php">Boys</a></li>
+                           <li><a href="shop.php">Girls</a></li>
+                           <li><a href="shop.php">New Arrival</a></li>
                            
                        </ul>
                   </div>

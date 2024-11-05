@@ -135,12 +135,12 @@ session_start();
                    <div class="footer onecol-lg-3 col-md-6 col-sm-12">                      
                        <h5 class="pb-2">Featured</h5>
                        <ul class="text-uppercase">
-                           <li><a href="#">Men</a></li>
-                           <li><a href="#">Women</a></li>
-                           <li><a href="#">Men</a></li>
-                           <li><a href="#">Boys</a></li>
-                           <li><a href="#">Girls</a></li>
-                           <li><a href="#">New Arrival</a></li>
+                       <li><a href="shop.php">Men</a></li>
+                           <li><a href="shop.php">Women</a></li>
+                           <li><a href="shop.php">Men</a></li>
+                           <li><a href="shop.php">Boys</a></li>
+                           <li><a href="shop.php">Girls</a></li>
+                           <li><a href="shop.php">New Arrival</a></li>
                            
                        </ul>
                   </div>
