@@ -16,6 +16,10 @@ if(isset($_POST['register'])){
     }
     else if(strlen($password) < 6){
         header('location: Register.php?error=password must be at least 6 characters');
+    } elseif (!preg_match('/[0-9]/', $password)) {
+        header('location: Register.php?error=Password must contain at least one number');
+    } elseif (!preg_match('/[\W]/', $password)) {
+        header('location: Register.php?error=Password must contain at least one special character');
     }
     else{
 
@@ -128,7 +132,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                     </div>
                     <div class="form-group">
                         <label>Email</label>
-                        <input type="text" class="form-control" id="regiseter-email" name="email" placeholder="email" required />
+                        <input type="email" class="form-control" id="regiseter-email" name="email" placeholder="email" required />
                     </div>
                     <div class="form-group">
                         <label>Password</label>

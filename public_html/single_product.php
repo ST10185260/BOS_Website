@@ -31,7 +31,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>single-product</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -138,7 +138,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <img class="img-fluid mb-3" src="IMG_F1.jpg"/>
             <h5 class="p-name">Dress</h5>
             <h4 class="p-price">R4500</h4>
-            <button class="buy-btn">Buy Now</button>
+            <button href="shop.php" class="buy-btn">Buy Now</button>
         </div>
         
         <!-- Feature 2 -->
@@ -146,7 +146,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <img class="img-fluid mb-3" src="IMG_F2.jpg"/>
             <h5 class="p-name">Certified Tracksuit</h5>
             <h4 class="p-price">R5200</h4>
-            <button class="buy-btn">Buy Now</button>
+            <button href="shop.php" class="buy-btn">Buy Now</button>
         </div>
         
         <!-- Feature 3 -->
@@ -154,7 +154,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <img class="img-fluid mb-3" src="IMG_F3.jpg"/>
             <h5 class="p-name">Leather Shorts</h5>
             <h4 class="p-price">R3500</h4>
-            <button class="buy-btn">Buy Now</button>
+            <button href="shop.php" class="buy-btn">Buy Now</button>
         </div>
         
         <!-- Feature 4 -->
@@ -162,7 +162,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
             <img class="img-fluid mb-3" src="IMG_F4.jpg"/>
             <h5 class="p-name">Shawl</h5>
             <h4 class="p-price">R2200</h4>
-            <button class="buy-btn">Buy Now</button>
+            <button href="shop.php" class="buy-btn">Buy Now</button>
         </div>
     </div>
 </section>

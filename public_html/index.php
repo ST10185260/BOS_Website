@@ -59,7 +59,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
              <h5>NEW ARRIVALS</h5>
              <h1>Best Prices This Season</h1>
              <p>BOS Offers best quality</p>
-             <button>Shop Now</button>
          </div>
      </section>
      <section id="new"  class="w-100">
@@ -103,7 +102,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
              <?php while($row= $featured_products->fetch_assoc()) { ?>
 
 
-                 <div onclick="window.location.href='Fifth_html.html';"  class="product text-center col-lg-3 col-md-4 col-sm-12">
+                 <div onclick="window.location.href='shop.php';"  class="product text-center col-lg-3 col-md-4 col-sm-12">
                   <img class="img-fluid mb-3 " src="<?php echo $row['product_image'] ;?>"/>
                  <h5 class="p-name"><?php echo $row['product_name'] ;?></h5>
                  <h4 class="p-price"><?php echo $row['product_price'] ;?></h4>
@@ -119,7 +118,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
              <div class="container">
                  <h4>MID SEASON'SALE</h4>
                  <h1>Winter Collection <br> UP to 30% OFF</h1>
-                 <button href="shop.php" class="text-uppercase">Shop Now</button>
              </div>
      </section>
          
@@ -136,15 +134,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
              <?php include('get_featured_products2.php'); ?>
              <?php while($row= $featured_products2->fetch_assoc()) { ?>
 
-              <div onclick="" class="product text-center col-lg-3 col-md-4 col-sm-12"> 
-                  <img class="img-fluid mb-3 " src="<?php echo $row['product_image'] ;?>"/>
-                  <div class="star">
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                      <i class="fas fa-star"></i>
-                  </div>
+              <div onclick="window.location.href='shop.php';" class="product text-center col-lg-3 col-md-4 col-sm-12"> 
+                  <img class="img-fluid mb-3 " src="<?php echo $row['product_image'] ;?>"/>               
                   <h5 class="p-name"><?php echo $row['product_name'] ;?></h5>
                  <h4 class="p-price"><?php echo $row['product_price'] ;?></h4>
                  <a href="single_product.php?product_id=<?php echo $row ['product_id'];?>?"><button class="buy-btn">Buy Now</button></a>
@@ -208,7 +199,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
                           </div>
                             <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
                                 <a href="#"><i class="fab fa-facebook"></i><a/>
-                                <a href="#"><i class="fab fa-instagram"></i><a/>
+                                <a href="https://www.instagram.com/boys_of_soweto_/"><i class="fab fa-instagram"></i><a/>
                                 <a href="#"><i class="fab fa-twitter"></i><a/>
                           </div>
                       </div>
