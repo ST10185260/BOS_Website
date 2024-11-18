@@ -56,8 +56,7 @@ $result = $conn->query($sql);
                             </td>
                             <td><?php echo $row["product_price"]; ?></td>
                             <td><?php echo $row["product_color"]; ?></td>
-                            <td><a href="Product_remove.php?id=<?php echo $row["product_id"]; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to remove this product?');">Remove</a>
-                            </td>
+                              </td>
                         </tr>
                     <?php endwhile; ?>
                 <?php else: ?>

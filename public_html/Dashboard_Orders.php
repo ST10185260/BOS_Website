@@ -60,7 +60,6 @@ $result = $conn->query($sql);
                             <td><?php echo $row["order_date"]; ?></td>
                             <td><?php echo $row["product_price"]; ?></td>
                             <td><?php echo $row["product_quantity"]; ?></td>
-                            <td><a href="remove_product.php?id=<?php echo $row["order_id"]; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to remove this product?');">Remove</a>
                             </td>
                             
                         </tr>
