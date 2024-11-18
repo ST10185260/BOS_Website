@@ -42,7 +42,7 @@ $result = $conn->query($sql);
                     <th>Order Date</th>
                     <th>Product Price</th>
                     <th>Product Quantity</th>
-                    <th>Remove</th>
+                    <th>Remove</th> 
                 </tr>
             </thead>
             <tbody>
